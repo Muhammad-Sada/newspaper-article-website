@@ -1,5 +1,3 @@
-from tkinter import CASCADE
-from turtle import title
 from django.db import models
 from django.conf import settings
 from django.urls import reverse
