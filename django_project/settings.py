@@ -83,7 +83,7 @@ WSGI_APPLICATION = "django_project.wsgi.application"
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
-    "default": dj_database_url(
+    "default": dj_database_url.config(
         default=f"sqlite:///{BASE_DIR /'db.sqlite3'}"
     )
 }
