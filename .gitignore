@@ -4,3 +4,4 @@ staticfiles/
 db.sqlite3
 *.sqlite3
 skey.txt
+data3.json
